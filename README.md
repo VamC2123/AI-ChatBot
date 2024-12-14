@@ -41,4 +41,4 @@ The chatbot integrates a user-friendly front-end with a robust backend powered b
 **Reset Mechanism:** Chat history resets automatically after 24 hours to maintain privacy.
 
 
-# -------------------------------------------------------CHECK OUT SETUP FILE for INSTALLATION-------------------------------------------------------
+# --------------CHECK OUT SETUP FILE for INSTALLATION------------------
