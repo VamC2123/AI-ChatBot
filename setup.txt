@@ -1,0 +1,29 @@
+Follow these steps to set up the Virtual Herbal Garden Chatbot:
+
+>>Clone the Repository:
+    git clone <repository_url>
+    cd virtual-herbal-garden
+
+>>Install Dependencies:
+  Install Python (3.8 or later).
+  Create a virtual environment:
+      python -m venv venv
+      source venv/bin/activate # On Windows: venv\Scripts\activate
+
+>>Install required libraries:
+    pip install flask google-generativeai
+
+>>Set Up API Key:
+Obtain a Gemini API key from Google Generative AI.
+Create an .env file in the project root and add:
+    GEMINI_API_KEY=your_api_key_here
+      
+>>Run the Application:
+    python app.py
+
+>>Access the Chatbot:
+    Open your browser and navigate to http://127.0.0.1:5000.
+
+>>Deploy to Server (Optional):
+Use platforms like Heroku, AWS, or Google Cloud to deploy the app.
+Ensure the .env file and required dependencies are configured correctly.
