@@ -1,7 +1,7 @@
 # AI-ChatBot
 
  # HACKATHON DETAILS and PROBLEM STATEMENT
-This project was developed as part of the SMART INDIA HACKATHON (SIH)-2024. The hackathon challenged participants to create innovative solutions to address real-world problems. Our team selected the theme of healthcare and well-being, focusing on the problem of making natural medicinal knowledge more accessible. The problem statement was to design a platform that educates users about the medicinal properties of various herbs, promoting traditional healing practices while leveraging modern technology.
+This project was developed as part of the **SMART INDIA HACKATHON (SIH-2024)**. The hackathon challenged participants to create innovative solutions to address real-world problems. Our team selected the theme of healthcare and well-being, focusing on the problem of making natural medicinal knowledge more accessible. The problem statement was to design a platform that educates users about the medicinal properties of various herbs, promoting traditional healing practices while leveraging modern technology.
 
 
 # PROJECT OVERVIEW
