@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, send_from_directory
+from flask import Flask, request, jsonify, send_file
 import google.generativeai as genai
 from datetime import datetime, timedelta
 import os
@@ -58,7 +58,7 @@ def generate_bot_response(user_input, retry_attempts=3, retry_delay=5):
 
 @app.route('/')
 def index():
-    return send_from_directory('index.html')
+    return send_file('index.html')
 
 
 @app.route('/generate', methods=['POST'])
@@ -96,4 +96,4 @@ def generate_response():
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+    app.run(host="0.0.0.0", port=port, debug=True)
