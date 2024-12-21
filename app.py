@@ -58,7 +58,7 @@ def generate_bot_response(user_input, retry_attempts=3, retry_delay=5):
 
 @app.route('/')
 def index():
-    return send_from_directory('static', 'index.html')
+    return send_from_directory('index.html')
 
 
 @app.route('/generate', methods=['POST'])
